@@ -1,0 +1,25 @@
+main {
+  display: grid;
+  grid-template-columns: 175px 175px 175px;
+  gap: 0px;
+}
+
+app-square {
+  border:  1px gray solid;
+  height: 175px;
+}
+
+.new-game {
+  width: calc(100% - 40px);
+  height: 40px;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
